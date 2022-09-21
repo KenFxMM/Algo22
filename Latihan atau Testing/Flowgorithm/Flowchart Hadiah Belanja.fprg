@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asuys"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-08-31 09:35:13 PM"/>
+        <attribute name="created" value="QXN1eXM7TEFQVE9QLTE1VFM2NzZSOzIwMjItMDgtMzE7MDk6MTg6MDIgUE07MjgzOA=="/>
+        <attribute name="edited" value="QXN1eXM7TEFQVE9QLTE1VFM2NzZSOzIwMjItMDgtMzE7MDk6MzU6MTMgUE07MjsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="harga, jumlah, Total" type="Integer" array="False" size=""/>
+            <input variable="harga"/>
+            <input variable="jumlah"/>
+            <assign variable="Total" expression="harga * jumlah"/>
+            <if expression="Total &gt; 1000000">
+                <then>
+                    <output expression="&quot;total belanja anda: &quot;&amp;Total&amp;&quot; Bonus anda: piring cantik&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;total belanja anda: &quot; &amp;total&amp; &quot; Bonus anda : Terima kasih&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
